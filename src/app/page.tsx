@@ -349,6 +349,99 @@ export default async function HomePage() {
                   </a>
                 </div>
               </article>
+              <article className="project featured">
+                <div className="mock" aria-hidden="true">
+                  <div className="mock-bar">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <span className="mock-url">
+                      clothing-store-mauve-pi.vercel.app
+                    </span>
+                  </div>
+                  <div className="mock-body">
+                    <div
+                      className="blk a"
+                      style={{ left: "4%", top: 10, width: "44%", height: 26 }}
+                    ></div>
+                    <div
+                      className="blk"
+                      style={{ left: "52%", top: 10, width: "20%", height: 26 }}
+                    ></div>
+                    <div
+                      className="blk"
+                      style={{ left: "76%", top: 10, width: "20%", height: 26 }}
+                    ></div>
+                    <div
+                      className="blk"
+                      style={{ left: "4%", top: 48, width: "29%", height: 58 }}
+                    ></div>
+                    <div
+                      className="blk"
+                      style={{ left: "36%", top: 48, width: "29%", height: 58 }}
+                    ></div>
+                    <div
+                      className="blk"
+                      style={{ left: "68%", top: 48, width: "28%", height: 58 }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="project-body">
+                  <div className="project-top">
+                    <h3>Clothing Store</h3>
+                    <span className="live-badge">
+                      <i></i>LIVE
+                    </span>
+                  </div>
+                  <p className="desc">
+                    A complete online clothing store for Bangladesh — shop by
+                    category, order with cash on delivery, and track orders,
+                    with a separate admin app to run the whole shop.
+                  </p>
+                  <ul className="feat">
+                    <li>
+                      <strong>Shop, categories &amp; product pages</strong>{" "}
+                      with photos, plus cart and checkout
+                    </li>
+                    <li>
+                      <strong>Cash on delivery</strong> across Bangladesh, with
+                      order tracking for customers
+                    </li>
+                    <li>
+                      <strong>Customer accounts</strong> — signup, login and
+                      your own orders in one place
+                    </li>
+                    <li>
+                      <strong>Separate admin app</strong> — products and photo
+                      uploads, order pipeline, categories and shop settings
+                    </li>
+                  </ul>
+                  <div className="tags">
+                    <span className="tag">Next.js</span>
+                    <span className="tag">React</span>
+                    <span className="tag">Supabase</span>
+                    <span className="tag">Vercel</span>
+                  </div>
+                  <a
+                    className="project-link"
+                    href="https://clothing-store-mauve-pi.vercel.app/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Visit live site{" "}
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M7 17L17 7M8 7h9v9" />
+                    </svg>
+                  </a>
+                </div>
+              </article>
             </div>
           </div>
         </section>
